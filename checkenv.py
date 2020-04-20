@@ -6,7 +6,7 @@
 """
 
 import logging
-from lib import var as g
+from lib import glob as g
 
 if __name__ == '__main__' :
     g.init()
