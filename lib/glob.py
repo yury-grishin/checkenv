@@ -83,11 +83,6 @@ def read_checklist(file_name):
         return chk_lst
 
 def _list_config():
-    """Converts the global config as a string.
-
-    Returns:
-      The global config as a string.
-    """
     lst = ''
     for section in config.sections():
         lst += f'[{section}]\n'
