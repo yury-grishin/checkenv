@@ -4,7 +4,6 @@
 
 This module contains functions for loading parameters from config files
 
-zzzzzzzzzz
 """
 
 from datetime import datetime
